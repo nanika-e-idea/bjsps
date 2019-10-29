@@ -1,14 +1,38 @@
 <template>
 <button class="button">
   <div class="buttonIcon"></div>
-  <span class="buttonLabel">ラベル</span>
+  <span class="buttonLabel">ボタンのラベル</span>
 </button>
 </template>
 <style rang="scss">
 .button{
-    width: 200px;
-    border-radius: 50%;
+  box-sizing: border-box;
+  width: auto;
+  max-width: 90%;
+  min-width: 200px;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  border: solid 1px #777;
+  border-radius: 20px;
+  border-color: #777;
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
 }
-.buttonIcon{}
-.buttonLabel{}
+.buttonIcon{
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  padding: 0;
+  float: left;
+  font-size: 20px;
+  line-height: 20px;
+  border: solid 1px #777;
+}
+.buttonLabel{
+  font-size: 14px;
+  line-height: 30px;
+  color: #777;
+}
 </style>
