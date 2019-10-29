@@ -1,0 +1,19 @@
+{
+  "name": "bj",
+  "version": "1.0.0",
+  "description": "My classy Nuxt.js project",
+  "author": "matsuge1Mb",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "firebase-tools": "^7.6.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
