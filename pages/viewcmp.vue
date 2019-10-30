@@ -15,7 +15,7 @@ import Button from '~/components/atoms/AtomButton.vue'
 export default {
 components: {
     Header,
-    Foot,
+    Footer,
     Button,
   }
 }

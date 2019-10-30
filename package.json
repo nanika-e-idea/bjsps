@@ -1,7 +1,7 @@
 {
-  "name": "bj",
+  "name": "PeraGen",
   "version": "1.0.0",
-  "description": "My classy Nuxt.js project",
+  "description": "single page website generater project",
   "author": "matsuge1Mb",
   "private": true,
   "scripts": {
