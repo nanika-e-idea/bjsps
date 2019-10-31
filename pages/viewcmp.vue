@@ -2,7 +2,7 @@
   <div class="view">
     <Header />
     <div class="container">
-      <Button />
+      <View />
     </div>
     <Footer />
   </div>
@@ -10,13 +10,13 @@
 <script>
 import Header from '~/components/organisms/TheHeader.vue'
 import Footer from '~/components/organisms/TheFooter.vue'
-import Button from '~/components/atoms/AtomButton.vue'
+import View from '~/components/molecules/MolForm.vue'
 
 export default {
 components: {
     Header,
     Footer,
-    Button,
+    View,
   }
 }
 </script>

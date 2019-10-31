@@ -1,0 +1,96 @@
+/* Graund Rules */
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* List Elements */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Form Elements */
+.AtomLabel{
+  font-size: 14px;
+  color: #777;
+}
+.AtomInput{
+  border: solid 1px #777;
+  border-radius: 20px;
+}
+.AtomButton{
+  box-sizing: border-box;
+  width: auto;
+  max-width: 90%;
+  min-width: 200px;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  border: solid 1px #777;
+  border-radius: 20px;
+  border-color: #777;
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
+  .ButtonIcon{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 0;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    border: solid 1px #777;
+  }
+  .ButtonLabel{
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+  }
+}
+
+
+/* Sample Elements */
+.button--green {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.button--green:hover {
+  color: #fff;
+  background-color: #3b8070;
+}
+
+.button--grey {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #35495e;
+  color: #35495e;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--grey:hover {
+  color: #fff;
+  background-color: #35495e;
+}
