@@ -1,9 +1,25 @@
 <template>
 <button class="button">
-  <div class="buttonIcon"></div>
-  <span class="buttonLabel">ボタンのラベル</span>
+  <div class="buttonIcon">
+    <img v-if="entryVal['icon']" />
+  </div>
+  <span class="buttonLabel"><v-html="entryVal['labrl']"></span>
 </button>
 </template>
+<script>
+export default{
+  name: 'Button',
+  props: {
+    data: Array,
+  },
+  computed: {
+    iterationData() {
+      let data = this.data
+      return data
+    }
+  },
+}
+</script>
 <style rang="scss">
 .button{
   box-sizing: border-box;
